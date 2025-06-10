@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ecommerce_Domain_Projects_DemoBlaze.T4_ShoppingPage">
+      <class name="TelecomDomain_APITestingProject.TelecomeProject">
         <methods>
-          <include name="pageSetUp"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="shoppingcart"/>
+          <include name="updateContact"/>
+          <include name="logInUser"/>
         </methods>
-      </class> <!-- ecommerce_Domain_Projects_DemoBlaze.T4_ShoppingPage -->
+      </class> <!-- TelecomDomain_APITestingProject.TelecomeProject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
